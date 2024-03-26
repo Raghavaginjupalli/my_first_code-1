@@ -1,1 +1,33 @@
-hvhhca  efdqvfHJ 	 
+The git diff command is used to show the differences between various states of the Git repository. It can show differences between:
+
+Working Directory and Staging Area (Index): Shows changes that are staged but not yet committed.
+Staging Area (Index) and the HEAD Commit: Shows changes that are staged and ready to be committed.
+Working Directory and the HEAD Commit: Shows changes made since the last commit.
+Here are some common use cases for git diff:
+
+To see changes between the working directory and the staging area:
+
+bash
+Copy code
+git diff
+To see changes between the staging area and the HEAD commit:
+
+bash
+Copy code
+git diff --staged
+To see changes between the working directory and the HEAD commit:
+
+bash
+Copy code
+git diff HEAD
+To see changes between two commits:
+
+bash
+Copy code
+git diff <commit1> <commit2>
+To see changes in a specific file:
+
+bash
+Copy code
+git diff <file>
+You can also add various options to git diff to customize its behavior further. For example, --color-words highlights changes within lines instead of whole lines, and --word-diff shows changes at word level. Additionally, you can use -R to reverse the order of comparison, showing changes as additions rather than deletions, and vice versa.
