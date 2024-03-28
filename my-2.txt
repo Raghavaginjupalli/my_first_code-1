@@ -1,4 +1,4 @@
-The git diff command is used to show the differences between various states of the Git repository. It can show differences between:
+
 
 Working Directory and Staging Area (Index): Shows changes that are staged but not yet committed.
 Staging Area (Index) and the HEAD Commit: Shows changes that are staged and ready to be committed.
